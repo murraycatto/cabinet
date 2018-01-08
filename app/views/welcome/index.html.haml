@@ -1,2 +1,16 @@
-%h1
-  Welcome
+#banner
+  .banner_content
+    %h1 FileCabinet
+    %p Your life's work. Organized, Always!
+    =link_to "Enter", new_user_registration_path, class: "button"
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p Irony church-key copper mug paleo readymade tofu cronut adaptogen lumbersexual food truck. Next level hexagon meggings selvage raw denim unicorn. Sriracha fam man bun, keytar lumbersexual fashion axe woke kickstarter. Unicorn distillery portland, intelligentsia actually aesthetic pickled. Disrupt biodiesel mixtape, tumblr fixie selvage yuccie squid.
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    =link_to "Join Now", new_user_registration_path, class: "button"
